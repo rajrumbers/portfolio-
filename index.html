@@ -32,7 +32,7 @@
   
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon "></span>
         </button>
 
         <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
@@ -47,7 +47,7 @@
             <a class="nav-link" style="padding: 3%;" href="skills.html"><h4 class="txt">Skills</h4></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  style="padding: 3%;"href="skills.html"><h4 class="txt">Projects</h4></a>
+            <a class="nav-link"  style="padding: 3%;"href="Projects.html"><h4 class="txt">Projects</h4></a>
           </li>
           <li class="nav-item">
             <a class="nav-link " style="padding: 3%;" href="contactme.html"><h4 class="txt">Contact</h4></a>
@@ -63,12 +63,29 @@
      
      <!--name and photo-->
      <div class="header2">
+      
     <div class="row">
         <div class="col-md-6">
+          <div class="wapper">
+            <div class="box">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              
+            </div>
+          </div>
           
         <h2 class="name">Hi! I'm </h2>
            <h2 class="name"> Sai Kiran Raj</h2>
-           <marquee><p class="greet">Frontend Developer</p></marquee>
+           <div id="change"><marquee><p class="greet">Frontend Developer</p></marquee></div>
 
         </div>
         <div class="col-md-6" >
@@ -91,7 +108,14 @@
       </center>
     </div>
   </div>
+<script>
 
+setTimeout(function(){ 
+  document.getElementById("change").innerHTML="<p class='greet'>Frontend Developer</p>";
+},9350);
+
+
+</script>
 
  
     
